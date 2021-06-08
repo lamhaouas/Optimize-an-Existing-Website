@@ -4,9 +4,14 @@ https://lamhaouas.github.io/optimize-an-existing-website/
 # Optimization report 
 
 ## Screenshots of Lighthouse scores before and after the optimization
+
 ### Before optimization
 
+![before optimization](/img/Lighthouse-before.jpg)
+
 ### After optimization
+
+![after optimization](/img/Lighthouse-after.jpg)
 
 ## Report of SEO work
 
@@ -20,7 +25,7 @@ Starting with a quick audit of lighthouse report to determine if the website fol
 
 ### Multiple H1 tags:
 
-* Multiple <h1> titles on the same page and absence of heirarchy.
+* Multiple h1 titles on the same page and absence of heirarchy.
 
 ### Images:
 
