@@ -20,7 +20,7 @@ Starting with a quick audit of lighthouse report to determine if the website fol
 
 ### Multiple H1 tags:
 
-* Multiple <h1> titles on the same page and absence of heirarchy.
+* Multiple h1 titles on the same page and absence of heirarchy.
 
 ### Images:
 
