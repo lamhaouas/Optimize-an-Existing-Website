@@ -45,3 +45,7 @@ The HTML5 code has a lot of divs and does not have a structure using the propre 
 
 The contrast does not comply with WCAG 2.1 requierments (contrast ratio of at least 4.5:1).
 
+### Performance of the pages
+
+Add preload key request and eliminate render blocking resources
+
