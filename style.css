@@ -132,7 +132,7 @@ a:hover {
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
-.d-bloc p a {
+.d-bloc a {
     color: rgba(255, 255, 255, .6)
 }
 
@@ -277,7 +277,7 @@ a:hover {
     margin-left: 0
 }
 
-.row.row-no-gutters>[class^="col-"],
+. .row-no-gutters>[class^="col-"],
 .row.row-no-gutters>[class*=" col-"] {
     padding-right: 0;
     padding-left: 0
@@ -647,18 +647,22 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
-h3,
+
 h4,
 h5,
 h6,
-p,
+
 label,
 .btn,
+
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757 !important
+}
+
+.link-color {
+    color: white;
 }
 
 .container {
@@ -684,7 +688,8 @@ a {
 }
 
 p {
-    font-size: 12px
+    font-size: 16 px;
+
 }
 
 .tight-width-whitespace {
@@ -708,12 +713,15 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto
+    margin: auto auto auto auto;
+
 }
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em
+    line-height: 1.4em;
+    color: black;
+    font-size: 2em;
 }
 
 h3 {
@@ -788,12 +796,13 @@ h4 {
 }
 
 .tc-white {
-    color: #b0c3ff !important;
+    color: white !important;
+    line-height: 1.6em;
 }
 
 .btn-atomic-tangerine {
-    background: #f3976c;
-    color: #222 !important;
+    background: #94360a;
+    color: #FFF !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -809,9 +818,6 @@ h4 {
     color: #cccccc !important;
 }
 
-.ltc-atomic-tangerine {
-    border-bottom: 7px solid rgba(243, 151, 108, 0.644);
-}
 
 .ltc-atomic-tangerine:hover {
     color: #f3976c !important;
@@ -921,8 +927,7 @@ h4 {
     h4,
     h5,
     h6,
-    p,
-    #disqus_thread {
+    p {
         padding-left: 10px !important;
         padding-right: 10px !important
     }
@@ -1088,4 +1093,31 @@ h4 {
     .bloc-mob-center-text {
         text-align: center
     }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+.contact-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.contact-list li {
+    margin-bottom: 14px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
