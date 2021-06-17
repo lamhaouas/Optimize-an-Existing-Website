@@ -657,8 +657,10 @@ label,
 
 a {
     font-family: "helvetica";
+    width: auto;
     font-weight: 400;
     color: #575757 !important
+
 }
 
 .link-color {
